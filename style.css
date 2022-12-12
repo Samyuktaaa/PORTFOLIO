@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color:rgb(148, 147, 147);
+    width: 400;
+    height: 150vh;
+}
+.sidebar nav{
+    padding: 40px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:white;
+}
+.main{
+    /*background-color:coral;*/
+    width: 70vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color:burlywood;*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144 px auto;
+    display: flex;
+    justify-content:space-around;
+}
+.myInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.myPic img{
+    height: 58vh;
+    justify-content: space-around;
+}
+.hello{ 
+    font-size: 50px;
+    
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+}
+.about{
+    font-size: 25px;
+}
+.moreabout{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    padding: 15px 20 px;
+    border-radius: 22px;
+    color: blanchedalmond;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 6px;
+    cursor: pointer;
+}
